@@ -36,8 +36,3 @@ def match_rule(dict_val, message):
 
     # Return the response and phrase
     return response.format(phrase)
-
-
-# # Test match_rule
-# print(match_rule(rules, "do you remember your last birthday"))
-# print(match_rule(rules, "if dogs all became gay"))
