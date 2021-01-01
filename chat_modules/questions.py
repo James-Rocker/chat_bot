@@ -19,8 +19,3 @@ def respond(message):
     # Return a random statement
     else:
         return random.choice(responses["statement"])
-
-
-# print(replace_pronouns("my last birthday"))
-# print(replace_pronouns("when you went to Florida"))
-# print(replace_pronouns("I had my own castle"))
