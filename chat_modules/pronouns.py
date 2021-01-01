@@ -18,7 +18,3 @@ def replace_pronouns(message):
         return re.sub("you", "me", message)
 
     return message
-
-# print(replace_pronouns("my last birthday"))
-# print(replace_pronouns("when you went to Florida"))
-# print(replace_pronouns("I had my own castle"))
